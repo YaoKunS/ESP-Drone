@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚁 ESP-Drone · 耀坤复刻版
+# 🚁 ESP-Drone · 耀坤整理版
 
 **乐鑫官方 ESP32 Wi-Fi 无人机 —— 可用手机 APP 或手柄通过 Wi-Fi 操控**
 
@@ -20,7 +20,7 @@
 
 ---
 
-> 📌 **本仓库是 [espressif/ESP-Drone](https://github.com/espressif/ESP-Drone) 的中文复刻整理版。**  
+> 📌 **本仓库是 [espressif/ESP-Drone](https://github.com/espressif/ESP-Drone) 的中文整理版。**  
 > 固件源码 100% 保持上游原样（仅调整了目录位置，未改一行代码逻辑），  
 > 本仓库额外提供：更完整的中文说明、重新规划的目录结构。  
 > 上游为**乐鑫官方（Espressif）**&#x9879;目，版权归乐鑫所有，采用 **GPL-3.0** 协议。
@@ -56,10 +56,10 @@
 > ¹ **定高与定点模式需要外接扩展板**，详见[硬件参考](Docs/zh_CN/rst/hardware.rst)。  
 > 自稳定模式使用主板自带传感器即可飞行。
 
-## 📁 目录结构（本复刻版重新整理）
+## 📁 目录结构（本整理版重新整理）
 
 > 🔧 **为什么要重整**：上游把 ESP-IDF 工程、硬件设计文件、Sphinx 文档平铺在根目录。  
-> 本复刻版把**固件相关的一律收进 `Firmware/`**，其中包含**完整的 ESP-IDF 工程**  
+> 本整理版把**固件相关的一律收进 `Firmware/`**，其中包含**完整的 ESP-IDF 工程**  
 > （`CMakeLists.txt` 与 `main/`、`components/` 同级，`sdkconfig.defaults*` 就地生效），  
 > 因此**进入 `Firmware/` 后 `idf.py build` 即可直接编译，零配置改动**。
 
@@ -202,7 +202,7 @@ ESP-Drone 官方提供了完整的手机端 App 源码，可自行编译改造�
 - **上游项目**：ESP-Drone © **Espressif Systems（乐鑫）** ·  
   源码仓库 <https://github.com/espressif/ESP-Drone>
 - **许可证**：**GPL-3.0**（完整文本见 [LICENSE](LICENSE)）
-- **本复刻版**：仅做中文文档与目录整理，**未修改固件逻辑**。
+- **本整理版**：仅做中文文档与目录整理，**未修改固件逻辑**。
 - **本仓库整理**：耀坤智联 YaoKunSmart · <https://github.com/YaoKunS>
 - **B 站**：<https://space.bilibili.com/3707011699050767>
 
@@ -237,13 +237,13 @@ ESP-Drone 官方提供了完整的手机端 App 源码，可自行编译改造�
 2. 仔细检查电机与桨叶安装牢固性，确认桨叶旋向与电机匹配
 3. 遵守当地无人机法规（实名登记、禁飞区、限高等）
 
-⚠️ 因使用本项目造成的任何损坏、伤害或损失，作者与本复刻整理方均不承担责任。**风险自负！**
+⚠️ 因使用本项目造成的任何损坏、伤害或损失，作者与本整理方均不承担责任。**风险自负！**
 
 ---
 
 <div align="center">
 
 **🚁 ESP-Drone** · 由 [Espressif 乐鑫](https://github.com/espressif) 官方推出 · GPL-3.0 License  
-· 本中文复刻整理版由 [耀坤智联](https://github.com/YaoKunS) 维护
+· 本中文整理版由 [耀坤智联](https://github.com/YaoKunS) 维护
 
 </div>
