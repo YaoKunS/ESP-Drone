@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# 🚁 ESP-Drone · YaoKun Chinese Fork
+# 🚁 ESP-Drone · YaoKun Chinese Edition
 
 **Espressif's official ESP32 Wi-Fi drone — controlled from a phone app or gamepad over Wi-Fi**
 
