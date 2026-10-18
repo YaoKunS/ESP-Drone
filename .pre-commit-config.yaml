@@ -3,5 +3,8 @@ repos:
     rev: v2.4.1
     hooks:
       - id: codespell
+        # .codespellrc 仍在仓库根，无需改动
         args: [--config=.codespellrc]
-        files: ^(docs/|README(_cn)?\.md$)
+        # 目录整理后拼写检查范围：文档目录改名 Docs/，
+        # 新增 README_EN.md，上游原版 README 归档为 Docs/UPSTREAM_README*.md
+        files: ^(Docs/|README(_EN)?\.md$)
